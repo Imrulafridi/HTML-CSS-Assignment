@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(56, 54, 54);
+}
+
+a:hover {
+  border-bottom: 5px solid orange;
+}
+li {
+    list-style: none;
+
+}
+.favi {
+    color: rgb(90, 138, 42);
+}
+.pbtn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(219, 139, 64);
+    font-weight: bold;
+}
+
+.belt {
+  background-color: rgb(92, 92, 92);
+  width: auto;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.left,
+.right {
+  margin: 5px 10px;
+}
+.fab,
+.fa-phone {
+  color: rgb(90, 138, 42);
+  padding: 5px;
+}
+
+.right span {
+  color: white;
+}
+
+.right input {
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(90, 138, 42);
+  margin-left: 15px;
+}
+.header {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+}
+
+.header img {
+  padding: 0;
+  margin: 0 15px;
+  height: 50px;
+  width: 80px;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+}
+.header ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.header ul li a {
+  list-style: none;
+  text-decoration: none;
+  margin: 5px;
+  color: rgb(97, 95, 95);
+  padding-bottom: 25px;
+}
+.header ul li a:active {
+  border-bottom: orange;
+}
+
+.showcase {
+  height: 80vh;
+  background: url(https://www.desktopbackground.org/download/o/2011/10/06/277048_hd-wallpapers-for-website-background-images_1920x1080_h.jpg)
+    no-repeat center center/cover;
+}
+
+.showcase-content {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.showcase-content p {
+  width: 60%;
+  padding: 10px;
+  color: rgb(246, 248, 246);
+}
+
+.advantages {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.text h1 {
+    padding: 5px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.pic i {
+    background-color: ghostwhite;
+    padding: 25px 35px;
+    border-radius: 50%;
+    color: rgb(90, 138, 42) ;
+    align-content: center;
+}
+.pic h5 {
+    margin: 15px 0px;
+}
+.about {
+    height: 80vh;
+    background: url(https://thumbs.dreamstime.com/b/abstract-futuristic-digital-technology-background-illustration-vector-innovation-66980091.jpg) no-repeat center center/cover;
+}
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1 h1 {
+    padding: 10px;
+}
+.pic1 {
+    width: 50%;
+    margin: 15px;
+    padding: 10px;
+}
+.services {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.text2 h1 {
+    padding: 10px;
+}
+.text2 p{
+    
+}
